@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GererItem.Apropos">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="56dp"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:id="@+id/result_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/image_selector"
+            android:minHeight="150dp"
+            android:minWidth="300dp"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/event_planning" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/title_apropos"
+            android:text="School events organizer"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/darkRed"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:text="Ceci est votre application pour organiser les informations des établissements.\n Vous pouvez a tout moment ajouter ou supprimer des établissements. C'est un outil effecace pour se rappeler de tous les details concernants ces établissement et ajouter des descriptions(notes) a propos de leur formations ou si un évenement aura lieu etc.\n"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

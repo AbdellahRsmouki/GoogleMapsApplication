@@ -1,0 +1,17 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+    android:fragment="com.rsmouki.zed.tp3.SettingsActivity$Logout"
+    android:icon="@drawable/ic_sync_black_24dp"
+    android:title="Log out" />
+
+    <header
+        android:fragment="com.rsmouki.zed.tp3.SettingsActivity$apropos"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="A propos" />
+
+
+
+</preference-headers>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/menu">
+    <item android:id="@+id/item1" android:title="Settings"/>
+    <item android:id="@+id/item2" android:title="Ajouter un établissement"/>
+    <item android:id="@+id/item3" android:title="Supprimer un établissement"/>
+    <item android:id="@+id/item4" android:title="Modifier un établissement"/>
+</menu>
